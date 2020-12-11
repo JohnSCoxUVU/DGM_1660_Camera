@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Camera 5A Changing my mind and redoing the lense.ma
-//Last modified: Thu, Dec 10, 2020 06:10:41 PM
+//Last modified: Thu, Dec 10, 2020 06:53:07 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "cutIdentifier" "201706261615-f9658c4cfc";
 fileInfo "osv" "Microsoft Windows 8 Business Edition, 64-bit  (Build 9200)\n";
 createNode transform -s -n "persp";
 	rename -uid "A985AB71-4CE8-A52D-B7D1-8AA8705F7D83";
-	setAttr ".t" -type "double3" -24.250102003291804 22.754352759771706 -7.6121791429334014 ;
+	setAttr ".t" -type "double3" -24.250102003291406 22.754352759771383 -7.6121791429332362 ;
 	setAttr ".r" -type "double3" -37.538352101448098 -472.59999999980084 0 ;
 	setAttr ".rp" -type "double3" -7.1054273576010019e-14 -1.7763568394002505e-15 1.1368683772161603e-13 ;
 	setAttr ".rpt" -type "double3" 2.5077805177713038e-14 -6.1770078593498975e-15 -2.392964317057323e-13 ;
@@ -22,7 +22,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v";
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 28.303943367640727;
+	setAttr ".coi" 28.30394336764018;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
